@@ -28,8 +28,8 @@ tests/
 scripts/
   demo.py             End-to-end script for the demo video
 report/
-  report.md           Part 1 + Part 2 written report (Markdown)
-  report.tex          Part 1 + Part 2 written report (LaTeX)
+  report.md           Part 1 + Part 2 written report (Markdown source)
+  report.pdf          Part 1 + Part 2 written report (final PDF, 3 pages)
 ```
 
 ## Setup

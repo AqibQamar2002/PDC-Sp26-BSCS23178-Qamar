@@ -178,6 +178,4 @@ C/A you have a *third* axis to tune: latency.
 | LLM tutor           | Circuit Breaker + fallback | **AP**  | The fallback answer is *not* the freshest LLM output, so we are explicitly trading Consistency-of-content for **Availability of the API**. Latency improves dramatically: a 60 s hang becomes a sub-millisecond fallback. |
 
 The system is therefore deliberately **mixed-consistency**: strong
-where data loss is unacceptable (documents), eventually consistent where
-the cost of unavailability is higher than the cost of a few seconds of
-staleness (subscription state, AI answers).
+where data loss is unacceptable, eventually consistent elsewhere.
